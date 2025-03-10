@@ -11,6 +11,7 @@ This sales analysis project was built using a Kaggle dataset, python pandas, mat
 
 4. what product was sold the most and why do we think it was sold the most
 
+
 To answer our first question we began by reading in the CSV and setting it as a dataframe. We then grouped our months data to sum how much in sales were generated each month. 
 
   ![Best Months For Sale   Revenue Generated](https://github.com/user-attachments/assets/7cec9d30-9156-408f-973a-5d59d6c4f538)
@@ -20,8 +21,10 @@ To answer our second question we then grouped our cities data to sum how much in
 
 ![Cities With Most Sales Graphic](https://github.com/user-attachments/assets/76ee0bf0-5387-4550-96c4-3601428ba6ee)
 
+
 To answer our third question we performed some data transformation to reveal which products were sold together the most. We first grouped the order ID's & products to determine which products were the most bought together. We then dropped the duplicated order ID's to see our final results of items bought together without repeated order ID's. Because of the large dataset I decided to only show the top 10 most sold together items
 ![Top 10 Items Most Sold Together](https://github.com/user-attachments/assets/231ba085-8ef5-4f1f-beb1-766a2e923a89)
+
 
 To finally answer our fourth question we summed the total number of products sold by quantity ordered.
 ![Most Sold Product This Year](https://github.com/user-attachments/assets/c60be0fd-4300-42a3-9b2f-e1b1a42e09b2)
